@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Formulario from './assets/components/Formulario'
-import Card from './assets/components/Card'
+import Formulario from './components/Formulario'
+import Card from './components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
